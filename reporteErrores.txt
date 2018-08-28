@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.tecsup.cps.sesion03:sesion03-CPS-2018-2 >-------------
+[INFO] Building sesion03-CPS-2018-2 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sesion03-CPS-2018-2 ---
+[INFO] Deleting /home/jose/Documentos/2018-II/Contrucción y Pruebas de Software/sesion03-CPS-2018-2/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sesion03-CPS-2018-2 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jose/Documentos/2018-II/Contrucción y Pruebas de Software/sesion03-CPS-2018-2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sesion03-CPS-2018-2 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/jose/Documentos/2018-II/Contrucción y Pruebas de Software/sesion03-CPS-2018-2/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/jose/Documentos/2018-II/Contrucción y Pruebas de Software/sesion03-CPS-2018-2/src/main/java/com/tecsup/cps/sesion03/App.java:[15,20] ';' expected
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.712 s
+[INFO] Finished at: 2018-08-28T10:41:25-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project sesion03-CPS-2018-2: Compilation failure
+[ERROR] /home/jose/Documentos/2018-II/Contrucción y Pruebas de Software/sesion03-CPS-2018-2/src/main/java/com/tecsup/cps/sesion03/App.java:[15,20] ';' expected
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
